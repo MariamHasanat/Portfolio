@@ -61,9 +61,12 @@ nav,
 }
 
 nav {
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 17vh;
+    margin-left: 10px;
+    margin-right: 20px;
+    gap: 20px;
 }
 
 .nav-values {
