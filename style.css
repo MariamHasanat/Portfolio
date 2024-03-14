@@ -15,9 +15,10 @@
 body {
   font-family: "Comfortaa", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   background-color: #fef2f4;
+  width: 100%;
 }
 
 html {
@@ -41,7 +42,7 @@ nav,
 }
 
 nav {
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 17vh;
   margin-left: 10px;
@@ -52,7 +53,7 @@ nav {
 .nav-values {
   gap: 2rem;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 a {
@@ -68,11 +69,11 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
-.name {
-  font-size: 2rem;
+.my-name {
+  font-size: 1.8rem;
 }
 
-.name:hover {
+.my-name:hover {
   cursor: default;
 }
 
