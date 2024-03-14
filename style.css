@@ -298,7 +298,9 @@ div>.btn-color-1 {
 .btn-container {
   gap: 1rem;
 }
-
+.email-icon:hover{
+  cursor: pointer;
+}
 
 /* About Section */
 
@@ -356,7 +358,7 @@ div>.btn-color-1 {
 
 /* Experience Section */
 
-#experience {
+/* #experience {
   position: relative;
 }
 
@@ -371,7 +373,7 @@ div>.btn-color-1 {
   display: flex;
   justify-content: center;
   flex-direction: column;
-}
+} */
 
 .article-container {
   display: flex;
