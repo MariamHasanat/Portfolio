@@ -400,6 +400,45 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+.project-container {
+  display: grid;
+  grid-template-columns: 95%;
+  grid-template-rows: 2 1 0.5 1;
+  grid-template-areas:
+    "img"
+    "title"
+    "bullets"
+    "footer";
+}
+
+.item-1,
+.item-2,
+.item-3 {
+  align-self: flex-end;
+  grid-area: "footer";
+}
+
+.bullets {
+  height: fit-content;
+  margin: 0.5rem;
+  grid-template-columns: 6rem 6rem;
+  justify-content: center;
+}
+
+.bullets>span {
+  /* padding: 0.1rem; */
+  display: inline-flex;
+  border: 0.1rem solid #aaa;
+  color: whitesmoke;
+  background-color: #777;
+  border-radius: 3rem;
+  margin: 1px;
+  /* width: fit-content; */
+  padding: 5px 15px 5px 15px;
+  text-align: center;
+
+}
+
 /* Contact */
 
 #contact {
