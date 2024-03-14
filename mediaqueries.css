@@ -12,10 +12,12 @@
 
   .email-header {
     font-size: 0.7rem;
+    color: #801b40;
   }
 
   .my-name{
     font-size: 1.2rem;
+    color: #470a1f;
   }
 
   #experience,
@@ -89,6 +91,7 @@
   .contact-info-container p,
   .nav-values li a {
     font-size: 1rem;
+    color: #d42a5b;
   }
 
   .experience-sub-title {
