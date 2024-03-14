@@ -13,49 +13,58 @@
 
 <body>
     <nav id="nav-bar-desktop">
-
-        <div class="name" style="display: flex; align-items: center;justify-content: space-between; gap: 1rem; margin-left: 1%;">
-            <img class="mariam-img" src="./assets/developer.png" alt="Mariam Hasanat image" width="70rem"
-                height="70rem">
-            <div>
-                <h1 class="my-name">
-                    Mariam&nbsp;Hasanat
-                </h1>
-                <p class="email-header">hasanattmariam@gmail.com</p>
+        <div class="nav-display" style="padding:0 2rem 0 2rem; display: flex;">
+            <div class="name" style="display: flex; align-items: center;justify-content: space-between; gap: 1rem; ">
+                <img class="mariam-img" src="./assets/developer.png" alt="Mariam Hasanat image" width="55rem"
+                    height="55rem">
+                <div>
+                    <h1 class="my-name">
+                        Mariam&nbsp;Hasanat
+                    </h1>
+                    <p class="email-header">hasanattmariam@gmail.com</p>
+                </div>
             </div>
-        </div>
-        <ul class="nav-values">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <nav id="nav-bar-mobile">
-        <h1 class="name">
-            Mariam&nbsp;Hasanat</h1>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
-                <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" viewBox="0 0 16.933 16.933"
-                    id="hamburger">
-                    <path
-                        d="M1.971 1.323c-1.058 0-1.058 1.587 0 1.587h12.996c1.059 0 1.059-1.587 0-1.587zm13.018 6.35H1.97c-1.1-.043-1.1 1.65 0 1.587h12.996c1.08.042 1.101-1.587.022-1.587zM1.97 14.023c-1.058 0-1.058 1.587 0 1.587h12.996c1.059 0 1.059-1.587 0-1.587z">
-                    </path>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" viewBox="0 0 512 512" id="close">
-                    <path
-                        d="M437.5 386.6L306.9 256l130.6-130.6c14.1-14.1 14.1-36.8 0-50.9-14.1-14.1-36.8-14.1-50.9 0L256 205.1 125.4 74.5c-14.1-14.1-36.8-14.1-50.9 0-14.1 14.1-14.1 36.8 0 50.9L205.1 256 74.5 386.6c-14.1 14.1-14.1 36.8 0 50.9 14.1 14.1 36.8 14.1 50.9 0L256 306.9l130.6 130.6c14.1 14.1 36.8 14.1 50.9 0 14-14.1 14-36.9 0-50.9z">
-                    </path>
-                </svg>
-            </div>
-            <ul class="menu-links">
-                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            <ul class="nav-values">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
+    </nav>
+    <nav id="nav-bar-mobile">
+        <div class="nav-display" style="padding:0 2rem 0 2rem; display: flex;">
+            <div class="name" style="display: flex; align-items: center;justify-content: space-between; gap: 1rem; ">
+                <img class="mariam-img" src="./assets/developer.png" alt="Mariam Hasanat image" width="55rem"
+                    height="55rem">
+                <div>
+                    <h1 class="my-name">
+                        Mariam&nbsp;Hasanat
+                    </h1>
+                    <p class="email-header">hasanattmariam@gmail.com</p>
+                </div>
+            </div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.933 16.933" id="hamburger">
+                        <path
+                            d="M1.971 1.323c-1.058 0-1.058 1.587 0 1.587h12.996c1.059 0 1.059-1.587 0-1.587zm13.018 6.35H1.97c-1.1-.043-1.1 1.65 0 1.587h12.996c1.08.042 1.101-1.587.022-1.587zM1.97 14.023c-1.058 0-1.058 1.587 0 1.587h12.996c1.059 0 1.059-1.587 0-1.587z">
+                        </path>
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="close">
+                        <path
+                            d="M437.5 386.6L306.9 256l130.6-130.6c14.1-14.1 14.1-36.8 0-50.9-14.1-14.1-36.8-14.1-50.9 0L256 205.1 125.4 74.5c-14.1-14.1-36.8-14.1-50.9 0-14.1 14.1-14.1 36.8 0 50.9L205.1 256 74.5 386.6c-14.1 14.1-14.1 36.8 0 50.9 14.1 14.1 36.8 14.1 50.9 0L256 306.9l130.6 130.6c14.1 14.1 36.8 14.1 50.9 0 14-14.1 14-36.9 0-50.9z">
+                        </path>
+                    </svg>
+                </div>
+                <ul class="menu-links">
+                    <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </ul>
+            </div>
     </nav>
 
     <section id="home">
@@ -68,10 +77,14 @@
             <h1 class="title">Mariam&nbsp;Hasanat</h1>
             <p class="section__text__p2">Junior Frontend Developer</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/Mariam Hasanat CV.pdf')">
-                    Download CV
-                </button>
-                <button class="btn btn-color-1" onclick="window.location('#contact')">Contact Me!</button>
+                <div>
+                    <button class="btn btn-color-2" onclick="window.open('./assets/Mariam Hasanat CV.pdf')">
+                        Download CV
+                    </button>
+                </div>
+                <div>
+                    <button class="btn btn-color-1" onclick="window.location('#contact')">Contact Me!</button>
+                </div>
             </div>
             <div id="socials-container">
                 <svg class="icon" onclick="window.open('https://www.linkedin.com/in/mariam-hasanat-80385a1b6/')"
