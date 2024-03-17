@@ -118,7 +118,7 @@ a:hover {
 
 .menu-links {
   position: absolute;
-  top: 100%;
+  top: 230%;
   right: 0;
   background-color: #fbd0d9;
 
@@ -132,8 +132,9 @@ a:hover {
 .menu-links a {
   display: block;
   padding: 10px;
-  text-align: center;
-  font-size: 1.5rem;
+  margin-left: 3vw;
+  text-align: left;
+  font-size: 1rem;
   color: #d42a5b;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
@@ -141,10 +142,14 @@ a:hover {
 
 .menu-links li {
   list-style: none;
+  padding: 5px;
+  border-bottom: 0.3px solid;
 }
 
 .menu-links.open {
   max-height: 300rem;
+  width: 100vw;
+  right: -100%;
 }
 
 .hamburger-icon.open svg:first-child {
@@ -306,7 +311,6 @@ div>.btn-color-1 {
  
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     align-items: center;
     gap: 1rem;
 }
