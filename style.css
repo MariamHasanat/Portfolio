@@ -161,8 +161,8 @@ a:hover {
 
 /* Sections */
 section {
-  padding-top: 4vh;
-  height: 96vh;
+  padding-top: 13vh;
+  height: 100vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -303,6 +303,16 @@ div>.btn-color-1 {
 
 #about {
   position: relative;
+ 
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 1rem;
+}
+
+.about-section{
+  margin-top: 2rem;
 }
 
 .about-containers {
@@ -335,16 +345,26 @@ div>.btn-color-1 {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background:#fbd0d9;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  border-color:#fbd0d9;
   text-align: center;
+  color: #801b40;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2vh;
+}
+
+.details-container>p{
+  color: #d42a5b;
 }
 
 .section-container {
   gap: 4rem;
-  height: 80%;
+  height: 60%;
 }
 
 .section__pic-container {
@@ -388,7 +408,7 @@ article .icon {
 
 .color-container {
   border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+  background: #fbd0d9;
 }
 
 .project-img {
@@ -403,10 +423,6 @@ article .icon {
   color: black;
 }
 
-.project-btn {
-  color: black;
-  border-color: rgb(163, 163, 163);
-}
 
 .project-container {
   display: grid;
@@ -435,9 +451,9 @@ article .icon {
 
 .bullets>span {
   display: inline-flex;
-  border: 0.1rem solid #aaa;
-  color: whitesmoke;
-  background-color: #777;
+  border: 0.1rem solid #fbd0d9;
+  color: white;
+  background-color: #d42a5b;
   border-radius: 3rem;
   margin: 1px;
   padding: 5px 15px 5px 15px;
