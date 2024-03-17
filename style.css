@@ -178,15 +178,16 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 100vh;
   /* flex-wrap: wrap; */
+
 }
 
 
 .section__pic-container {
   display: flex;
-  height: 400px;
-  width: 400px;
+  width: 350rem;
+  height: 350rem;
   margin: auto 0;
 }
 
@@ -198,6 +199,14 @@ section {
 .section__text {
   align-self: center;
   text-align: center;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  justify-content: space-between;
+  align-items: center;
+  /* align-content: center; */
+
 }
 
 .section__text p {
@@ -298,7 +307,8 @@ div>.btn-color-1 {
 .btn-container {
   gap: 1rem;
 }
-.email-icon:hover{
+
+.email-icon:hover {
   cursor: pointer;
 }
 

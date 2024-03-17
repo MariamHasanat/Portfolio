@@ -1,4 +1,8 @@
 @media screen and (max-width: 1200px) {
+  #home{
+    position: relative;
+    top: 10vh;
+  }
   #nav-bar-desktop {
     display: none;
   }
@@ -53,12 +57,17 @@
 
   .about-containers {
     margin-top: 0;
+    flex-wrap:wrap;
   }
 }
 
 
 @media screen and (max-width: 600px) {
 
+  #home{
+    position: relative;
+    top: 10vh;
+  }
   #contact,
   footer {
     height: 40vh;
@@ -110,7 +119,7 @@
 
   .section__pic-container {
     width: auto;
-    height: 46vw;
+    height: 55vw;
     justify-content: center;
   }
 
